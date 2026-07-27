@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://watchseriesfree.com/sitemap.xml
+Sitemap: https://watchseriesforfree.vercel.app/sitemap.xml
+Sitemap: https://watchseriesforfree.pages.dev/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
