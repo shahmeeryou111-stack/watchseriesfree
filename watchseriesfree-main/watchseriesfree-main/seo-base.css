@@ -1,0 +1,25 @@
+/* Shared SEO page styles — linked from keyword landing pages */
+*,*::before,*::after{box-sizing:border-box}
+:root{--bg:#07070b;--ink:#f5f3ef;--muted:#9b968e;--gold:#d4af6e;--line:rgba(255,255,255,.09);--gold-grad:linear-gradient(135deg,#e8cd97,#c39a51)}
+html{scroll-behavior:smooth}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-weight:300;line-height:1.75;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;margin:0 0 .5em}
+a{color:var(--gold)}
+.wrap{max-width:820px;margin:0 auto;padding:0 24px 80px}
+header{border-bottom:1px solid var(--line);padding:16px 0;margin-bottom:40px}
+.brand{font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.hero{margin-bottom:48px}
+.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.1}
+.eyebrow{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.btn{display:inline-flex;align-items:center;padding:16px 32px;background:var(--gold-grad);color:#161006;font-weight:600;text-decoration:none;border-radius:2px;margin:24px 0}
+.content p,.content li{color:var(--muted);font-size:15px}
+.content h2{font-size:28px;margin-top:48px;color:var(--ink)}
+.content h3{font-size:22px;margin-top:32px;color:var(--ink)}
+.content ul,.content ol{padding-left:20px}
+.faq{margin-top:48px;border-top:1px solid var(--line);padding-top:32px}
+.faq details{border-bottom:1px solid var(--line);padding:16px 0}
+.faq summary{cursor:pointer;font-family:"Cormorant Garamond",serif;font-size:20px;color:var(--ink)}
+.related{margin-top:48px;padding:24px;border:1px solid var(--line);background:rgba(255,255,255,.02)}
+.related a{display:block;margin:8px 0;color:var(--gold)}
+footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:13px;margin-top:48px}
+.vpn{font-size:13px;color:var(--muted);border-left:2px solid rgba(212,175,110,.45);padding-left:14px;margin:24px 0}

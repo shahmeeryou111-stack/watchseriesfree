@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://watchseriesforfree.pages.dev/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
